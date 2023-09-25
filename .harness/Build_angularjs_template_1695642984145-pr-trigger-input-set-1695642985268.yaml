@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_angularjs_template_1695642984145-pr-trigger-input-set
+  identifier: Build_angularjs_template_1695642984145prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_angularjs_template_1695642984145
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
