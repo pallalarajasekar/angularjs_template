@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_angularjs_template_1695642984145-push-trigger-input-set
+  identifier: Build_angularjs_template_1695642984145pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_angularjs_template_1695642984145
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
